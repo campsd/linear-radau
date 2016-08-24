@@ -24,7 +24,7 @@ SOFTWARE.
 The core solvers are inspired and derived from the methods discussed in 
 Hairer & Wanner - Solving Ordinary Differential Equations II. The implemtation
 available at http://www.unige.ch/~hairer/software.html served as a reference
-and include the following license:
+and includes the following license:
 
 Copyright (c) 2004, Ernst Hairer
 
