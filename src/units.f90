@@ -5,14 +5,11 @@
 ! ------------------------------------------------------------------------------------------------------
 module units
   implicit none
-  !integer, parameter 	::	wp = selected_real_kind(33, 4931) ! quadruple precision (https://en.wikipedia.org/wiki/Quadruple-precision_floating-point_format)
   integer, parameter	::	wp = selected_real_kind(15, 307) ! double precision
-  ! IF YOU CHANGE THIS PARAMETER TO QP, WE NEED TO UPDATE THE MPI SEND !!
   integer, parameter	::	PRINT_UNIT = 0	! Used for writing and reading
-! RADAU integration parameters	
+  ! RADAU integration parameters	
 	! ----------------------------------------------------------------------------------------------
 	! Similarity matrices Butcher tableau
-
 	! Last row of similarity matrix T
 	real(wp), parameter ::	T31 = 0.96604818261509293619D0
 	! Rowsums of inverse similarity matrix TI	
